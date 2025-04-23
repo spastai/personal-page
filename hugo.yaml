@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://spastai.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Marijus"
 
 # Use Hugo modules to add theme
 module:
@@ -25,11 +25,7 @@ languages:
     languageName: English
     title: "John's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
 defaultContentLanguage: en
 
@@ -58,7 +54,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background-trees.jpg
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
@@ -70,7 +66,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/spastai/personal-page.git
   # Default branch of your Git repo
   gitBranch: main
 
