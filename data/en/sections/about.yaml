@@ -11,8 +11,8 @@ section:
 designation: Software Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: SDX
+  url: "https://www.sdx.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.

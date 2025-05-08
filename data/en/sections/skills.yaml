@@ -27,9 +27,15 @@ buttons:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in managing complex apps of apps deployments with ArgoCD."
   categories: ["container"]
   url: "https://kubernetes.io/"
+
+- name: Java stack
+  logo: /images/sections/skills/java.png
+  categories: ["basic", "language"]
+  summary: "Spent majority of the time with all flavors of Java: started with J2EE, Apache (most memorable Camel) then Spring and Reactive with Reactor, later Kotlin, a little bit Clojure and Scala to try more functional."
+  url: "https://www.java.com/"
 
 - name: Go Development
   logo: /images/sections/skills/go.png
