@@ -11,63 +11,105 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: SIX Digital Exchange
+    url: "https://www.sdx.com"
+    location: Zürich
+    logo: /images/sections/experiences/sdx.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: The World's Leading Financial Market Infrastructure for Digital Assets
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Head of SRE
+    start: Oct 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Led a team of 6 engineers to ensure distributed ledger reliability on Kubernetes and enhance GitOps processes
+    - Managed an inventory of ~20 systems (e.g., GitLab, Hashicorp Vault) across ~10 Kubernetes clusters
+    - Developed a vulnerability monitoring process, resolving 80\% of high-level image vulnerabilities on time
+    - Optimized backup architecture, cutting time from 2.5 hours to 15 minutes by storing only essential data
+    - Reduced cloud provider costs by 30\% in a year through cost evaluations and reviews
+    - Created Grafana and Elastic dashboards to set and track KPIs
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Tech Lead
+    start: Apr 2019
+    end: Oct 2022
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Delivered a confidential computing-based custody solution using Intel, HP, RedHat, and Fireblocks solutions
+    - Assembled a demo for the Board of Directors to ensure the project's continuity
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Nasdaq
+    url: "https://www.nasdaq.com"
+    location: Vilnius, Lithuania
+    logo: /images/sections/experiences/nasdaq.png
+    overview: Global technology company serving the capital markets and other industries.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Principal Architect
+    start: Jul 2018
+    end: Apr 2019
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Delivered a production-grade eVoting system processing 50 transactions per second on a ledger
+  - designation: Lead Architect
+    start: Sep 2016
+    end: Jul 2018
+    responsibilities:
+    - Led a team of 5 engineers in a successful PoC for SIX demonstrating Delivery vs Payment (DvP) on a ledger
+    - Scope management with behavior driven development, was instrumental
+    - Delivered a Proof of Concept for USD tokenization in collaboration with CitiBank
+
+
+- company:
+    name: Telia (Omnitel, TeliaSonera)
+    url: "https://www.telia.lt"
+    location: Vilnius, Lithuania
+    logo: /images/sections/experiences/telia.png
+    overview: Leading telecommunications company in the Baltic region.
+  positions:
+    - designation: Product Development Manager
+      start: Jul 2010
+      end: Aug 2016
+      responsibilities:
+        - Established governance for application development and ran projects using agile methodologies (Scrum, Kanban).
+        - Automated tests using SIPp and Cucumber; assured maintainability with Ansible.
+        - Developed a highly reusable SIP-SLEE application framework 
+        - Developed a provisioning system using [Apache ServiceMix]()
+        - Introduced ElasticSearch APM for observability
+    - designation: VAS Architect
+      start: Feb 2009
+      end: Jul 2010
+      responsibilities:
+        - Developed Messaging and IN services.
+        - Upgraded OSS system (NetAct).
+    - designation: Project Manager
+      start: 2005
+      end: Feb 2009
+      responsibilities:
+        - Managed technical projects for support systems like Inventory management, Fault management and Performance management
+    - designation: Senior System Administrator, Java Systems Administrator
+      start: 2003
+      end: 2005
+      responsibilities:
+        - Administered Java system that I have developed
+    - designation: Software Engineer
+      start: 2001
+      end: 2003
+      responsibilities:
+        - Developed self-care portal on IBM WebSphere.
+        - Exposed API for third parties to top up Prepaid services.
+        - Developed Webmail for operator customers.
+
+- company:
+    name: Eltera
+    location: Vilnius, Lithuania
+    overview: Automation enineering company
+  positions:
+    - designation: Software Engineer
+      start: Nov 2000
+      end: Nov 2001
+      responsibilities:
+        - Developed microcoontroller for security systems
+        - Administrated IT infrastructure 
+

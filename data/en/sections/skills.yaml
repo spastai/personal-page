@@ -31,10 +31,34 @@ skills:
   categories: ["container"]
   url: "https://kubernetes.io/"
 
+- name: Observability
+  logo: /images/sections/skills/monitoring.png
+  summary: |
+    I favour metrics due its shorter path to actions 
+    (alerts in simpliest form and trends, root cause analysis or preventive actions
+    in more complicated cases). Thus Grafana and Proetheus are used pretty heavily.
+    Even with Elastic I will aim for the dashboards to feel the pulse. With tracing 
+    worked mainly with Elastic APM.
+  categories: ["basic"]
+  url: "https://prometheus.io/"
+
+
+- name: GitOps
+  logo: /images/sections/skills/git.png
+  summary: |
+    Ability to trace quickly down to source code is significant in quick problem resolution.
+    Declarative appraoch is even better as imperative might still have some execution 
+    branches, binaries or history which might add extra downtime.
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
 - name: Java stack
   logo: /images/sections/skills/java.png
   categories: ["basic", "language"]
-  summary: "Spent majority of the time with all flavors of Java: started with J2EE, Apache (most memorable Camel) then Spring and Reactive with Reactor, later Kotlin, a little bit Clojure and Scala to try more functional."
+  summary: |
+     Spent majority of the time with all flavors of Java: started with J2EE, 
+     Apache (most memorable Camel) then Spring and Reactive with Reactor, later Kotlin, 
+     a little bit Clojure and Scala to be more functional formaly."
   url: "https://www.java.com/"
 
 - name: Go Development
@@ -45,33 +69,30 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "At Nasdaq first projects were delivered on AWS. At SIX continued my path Azure cloud."
   categories: ["others"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: | 
+    Docker image for me artefact to deliver. Idealy accompanied with helm chart.
   categories: ["container"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: React
+  logo: /images/sections/skills/react.png
+  summary: | 
+    Most actively worked with react on Vilnius Carpool project - those times redux was 
+    introduced and I have got immutability and functional programming experience.
+  categories: ["basic", "language"]
+  url: "https://reactjs.org/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
-
-- name: C++
+- name: C and C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "The first language I learned (read a book). Soon moved to Object oriented programing with C++"
+  categories: ["basic", "language"]
+
+- name: Assembler
+  logo: /images/sections/skills/asm.png
+  summary: "Yes I did this. But it was long time ago. Mainly for Microchip PIC16F886 programming."
   categories: ["basic", "language"]
